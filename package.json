@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev -H 0.0.0.0 -p 3000",
-    "build": "next build",
-    "start": "next start -H 0.0.0.0 -p 3000",
-    "lint": "next lint"
-  },
+  "dev": "next dev -H 0.0.0.0 -p 3000",
+  "build": "next build",
+  "start": "yarn build && next start -H 0.0.0.0 -p 3000",
+  "lint": "next lint"
+},
   "dependencies": {
     "@headlessui/react": "^2.0.3",
     "@heroicons/react": "^2.1.3",
